@@ -19,6 +19,10 @@
 
 <body>
 
+    <div class="load">
+        <div class="img"></div>
+    </div>
+
     <div class="container">
 
         <!-- picture and text -->
@@ -51,7 +55,13 @@
     <div class="footer">
         <p class="p">no one likes me, i don't care</p>
     </div>
+    <script>
+        var load = document.getElementsByClassName("load")[0];
 
+        window.addEventListener('load', function () {
+            load.style.display = "none"
+        })
+    </script>
 </body>
 
 </html>

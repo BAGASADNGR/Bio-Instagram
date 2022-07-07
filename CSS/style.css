@@ -4,6 +4,22 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;;
 }
+.load {
+    max-width: 576px;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    background-color:whitesmoke;
+}
+.img {
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-image: url(../Media/load.png);
+    animation: putar 2s linear infinite;
+}
 .container {
     max-width: 576px;
     height: 100vh;
@@ -83,4 +99,9 @@
     justify-content:center;
     line-height: 20vh;
     text-transform: uppercase;
+}
+
+@keyframes putar {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
 }
