@@ -11,6 +11,9 @@
     margin: auto;
     background-color:whitesmoke;
 }
+#main {
+    display: none;
+}
 .img {
     width: 70px;
     height: 70px;
