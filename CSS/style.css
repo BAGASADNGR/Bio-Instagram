@@ -26,7 +26,7 @@
 .container {
     max-width: 576px;
     height: 100vh;
-    background-image: url(../Media/Untitled.jpeg);
+    background-image: url(../Media/compressed/Untitled.jpeg);
     background-size: cover;
     display: flex;
     opacity: 0,4;
@@ -41,7 +41,7 @@
     height: 150px;
     filter: brightness(100%);
     margin-top: 20px;
-    background-image: url(../Media/pn2.jpg);
+    background-image: url(../Media/compressed/pn2.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 100%;
@@ -70,15 +70,15 @@
     text-transform: uppercase;
 }
 .nav .twt {
-    background-image: url(../Media/pt1.png);
+    background-image: url(../Media/compressed/pt1.png);
     background-size: cover;
 }
 .nav .fb {
-    background-image: url(../Media/pt2.jpg);
+    background-image: url(../Media/compressed/pt2.jpg);
     background-size: cover;
 }
 .nav .em {
-    background-image: url(../Media/pt3.jpg);
+    background-image: url(../Media/compressed/pt3.jpg);
     background-size: cover;
 }
 
